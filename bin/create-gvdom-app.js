@@ -49,6 +49,9 @@ async function main() {
     fs.rmSync(path.join(appPath, "package.json"), {
       force: true,
     })
+    fs.rmSync(path.join(appPath, "yarn.lock"), {
+      force: true,
+    })
 
     console.log("\n\nCreating package.json file...")
 

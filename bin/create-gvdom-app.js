@@ -63,9 +63,6 @@ async function main() {
         start: "parcel src/index.html",
         build: "parcel build src/index.js",
       },
-      dependencies: {
-        gvdom: "0.0.3",
-      },
       devDependencies: {
         parcel: "2.9.1",
         "@babel/core": "7.22.1",
@@ -82,8 +79,10 @@ async function main() {
 
     if (isUsingYarn()) {
       execSync("yarn install")
+      execSync("yarn add gvdom -E")
     } else {
       execSync("npm install")
+      execSync("npm install gvdom -E")
     }
 
     console.log("\n\nDone with dependencies 🙂")

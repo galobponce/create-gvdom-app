@@ -1,0 +1,6 @@
+node_modules/
+
+# Folders created by parcel
+.parcel-cache/
+dist/
+cache/

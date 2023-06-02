@@ -1,7 +1,7 @@
 {
   "name": "create-gvdom-app",
   "description": "Set up a gvdom app by running one command",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "bin": {
     "create-gvdom-app": "./bin/create-gvdom-app.js"
   },
@@ -11,9 +11,6 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.js"
-  },
-  "dependencies": {
-    "gvdom": "0.0.3"
   },
   "devDependencies": {
     "parcel": "2.9.1",

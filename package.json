@@ -1,7 +1,7 @@
 {
   "name": "create-gvdom-app",
   "description": "Set up a gvdom app by running one command",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
     "create-gvdom-app": "./bin/create-gvdom-app.js"
   },
